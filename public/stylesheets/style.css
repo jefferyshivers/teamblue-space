@@ -5,6 +5,7 @@ body {
   height: 100vh;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-decoration: none;
+  background: rgb(80,80,80);
 }
 
 a {
@@ -20,7 +21,6 @@ a {
 	display : flex;
 	justify-content: center;
 	align-items: center;
-	/*font-size: 270%;*/
 }
 
 
@@ -33,7 +33,9 @@ a {
 	justify-content: center;
 	align-items: center;
 	font-size: 300%;
-	background: rgb(0,200,255);
+	background: linear-gradient(to top, rgb(0,180,245), rgb(0,200,255));
+	border-radius: 4px;	
+	box-shadow: rgb(40,40,40) 0 0 20px;
 }
 
 
